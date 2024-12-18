@@ -11,7 +11,6 @@
         // Kör Run-metoden
         example.Run();
             // Kör Run-metoden
-
         }
 
         public delegate void PrintDelegate(string text);
