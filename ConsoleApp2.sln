@@ -3,17 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesMessaging", "ConsoleApp2\DelegatesMessaging.csproj", "{E976218F-ADF4-4498-8B41-7929ACB5E374}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesMessaging", "ConsoleApp2\DelegatesMessaging.csproj", "{E976218F-ADF4-4498-8B41-7929ACB5E374}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesPrint", "ConsoleApp1\DelegatesPrint.csproj", "{799B0E3D-4275-46D6-B136-638940C13F57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesPrint", "ConsoleApp1\DelegatesPrint.csproj", "{799B0E3D-4275-46D6-B136-638940C13F57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesBig", "DElBig\DelegatesBig.csproj", "{1CFE4471-079A-472E-92B3-E1165F305F9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesBig", "DElBig\DelegatesBig.csproj", "{1CFE4471-079A-472E-92B3-E1165F305F9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event", "Event\Event.csproj", "{AB7EA42B-5787-4C0C-9277-57BED6732D9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Event", "Event\Event.csproj", "{AB7EA42B-5787-4C0C-9277-57BED6732D9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventUppgiftEtt", "EventUppgiftEtt\EventUppgiftEtt.csproj", "{D3C7F654-1C20-4D04-A5EA-9FE4CE28F35A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventUppgiftEtt", "EventUppgiftEtt\EventUppgiftEtt.csproj", "{D3C7F654-1C20-4D04-A5EA-9FE4CE28F35A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubSub", "PubSub\PubSub.csproj", "{3C104857-DDED-46A4-809C-BF5DA5690DFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PubSub", "PubSub\PubSub.csproj", "{3C104857-DDED-46A4-809C-BF5DA5690DFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpGet", "Http\HttpGet.csproj", "{C6C6EFC9-7539-4590-9198-27F0AF042037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpPost", "HttpPost\HttpPost.csproj", "{2D8A4FCC-BB10-465E-A082-DBB02FB2E469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading", "Threading\Threading.csproj", "{ED9C62C6-8420-49AB-9104-AF076287A887}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task", "Task\Task.csproj", "{E1834F44-B208-4EB6-A715-AA14553DA6A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +53,22 @@ Global
 		{3C104857-DDED-46A4-809C-BF5DA5690DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C104857-DDED-46A4-809C-BF5DA5690DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C104857-DDED-46A4-809C-BF5DA5690DFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C6EFC9-7539-4590-9198-27F0AF042037}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C6EFC9-7539-4590-9198-27F0AF042037}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C6EFC9-7539-4590-9198-27F0AF042037}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C6EFC9-7539-4590-9198-27F0AF042037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D8A4FCC-BB10-465E-A082-DBB02FB2E469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D8A4FCC-BB10-465E-A082-DBB02FB2E469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D8A4FCC-BB10-465E-A082-DBB02FB2E469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D8A4FCC-BB10-465E-A082-DBB02FB2E469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED9C62C6-8420-49AB-9104-AF076287A887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9C62C6-8420-49AB-9104-AF076287A887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9C62C6-8420-49AB-9104-AF076287A887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9C62C6-8420-49AB-9104-AF076287A887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1834F44-B208-4EB6-A715-AA14553DA6A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1834F44-B208-4EB6-A715-AA14553DA6A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1834F44-B208-4EB6-A715-AA14553DA6A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1834F44-B208-4EB6-A715-AA14553DA6A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
